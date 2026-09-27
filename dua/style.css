@@ -1,0 +1,101 @@
+*{border-box:border-box;margin:0;padding:0;}
+ 
+ body{background:#212121;color:#ededed;}
+ 
+ .header{
+  height:72px;
+  padding:0 40px;
+  display:flex;
+  align-items:center;
+  direction:ltr;
+  background:#141414;
+ }
+ 
+ .logo{
+  color:#fff;
+  text-decoration:none;
+  font-size:22px;
+  font-wieght:600;
+  font-family:"Libre Baskerville",serif;
+ }
+ 
+ .header span{
+  background:#2f223e;
+  color:#C9A9E9;
+  font-family:Arial,sans-serif;
+  font-size:13px;
+  font-weight:bold;
+  padding:4px 6px;
+  margin:0px 10px;
+  border-radius:4px;
+ }
+ 
+ .dua-info{
+  background:linear-gradient(to bottom right,#094c50,#0c7074);
+  padding:60px 20px;
+  margin-bottom:20px; 
+  text-align:center;
+  font-family:"Noto Naskh Arabic", serif;
+  font-size:15px;
+ }
+ 
+ .dua-info p{
+  font-size:15px;
+  color:#fff;
+  margin-left:5px;
+ }
+ 
+ .dua-info span{
+  color:#b7d0d2;
+  margin:10px 5px;
+  font-size:12px;
+  display:inline-block;
+ }
+ 
+ main{width:min(1000px,calc(100% - 40px));margin:40px auto}
+ 
+ .basmallah{
+  font-size:28px;
+  font-family:"Scheherazade New", serif;
+  text-align:center;
+  margin-bottom:40px;
+ }
+ 
+ .dua-content{width:100%}
+ .dua-section{padding:35px 10px;border-bottom:1px solid #404040}
+ 
+ .arabic{
+  margin:0;
+  font-family:"Scheherazade New",serif;
+  font-size:21px;
+  line-height:2.5;
+  font-weight:400;
+ }
+ 
+ .persian{
+  margin:10px 0px 20px 0px;
+  font-family:"Noto Naskh Arabic",serif;
+  font-size:15px;
+  line-height:2;
+ }
+ 
+ .end-text{
+  color:#868686;
+  font-family:"Noto Naskh Arabic",serif;
+  font-size:14px;
+  text-align:center;
+  margin:35px 0px;
+ }
+ 
+ .end-text a{color:#868686;text-decoration:none;}
+ .end-text a:hover{color:#0c7074;}
+ 
+ @media(max-width:600px){
+  .dua-section{padding:30px 0;}
+  .dua-info{padding:40px 20px;}
+  .arabic{font-size:19px;line-height:2.4;}
+  .persian{font-size:13px;}
+  .header{padding:0px 20px;}
+  .header span{font-size:12px;}
+  .logo{font-size:19px;}
+ }
